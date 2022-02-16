@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            android:background="@drawable/ic_background3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="250dp"
+                android:text="Come back with your ID"
+                android:textColor="@color/green"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/ic_shield" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="200dp"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="300dp"
+            android:alpha="0.5"
+            android:background="@drawable/circle_button"
+            android:hint="User name"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/et_sign2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="370dp"
+            android:alpha="0.5"
+            android:background="@drawable/circle_button"
+            android:hint="Password"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_sign2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/green"
+            android:text="Sign"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="250dp"
+            android:layout_marginBottom="250dp"
+            android:text="Forgot password?"
+            android:textColor="@color/green"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="550dp"
+            android:text="OR"
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="680dp"
+            android:text="Not a member?  Sign up"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
